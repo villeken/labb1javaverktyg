@@ -52,4 +52,4 @@ git cherry-pick b1c5917
 
 git add fix2.txt
 
-git commit -m "Add text to txt2"
+git commit -m "add text fix2.txt"
