@@ -1,0 +1,55 @@
+mkdir labb1
+
+cd C:\Users\grubl\Labb1
+
+git init
+
+git add README.md
+
+git commit -m "Initial commit"
+
+git checkout -b feature1
+
+git add README.md
+
+git commit -m "edit README on feature1"
+
+git checkout main
+
+git add README.md
+
+git commit -m "Replace moose with mahmut"
+
+git merge feature1
+
+git add README.md
+
+git commit -m "Resolve merge conflict"
+
+git tag -a extinct -m "Tagging the merge commit as extinct"
+
+git reset --hard HEAD~1
+
+git branch feature2
+
+git add README.md
+
+git commit -m "Capitalize all animal names"
+
+git checkout feature2
+
+git add fix1.txt
+
+git commit -m "add fix1.txt"
+
+git add fix2.txt
+
+git commit -m "add fix2.txt"
+
+git checkout main
+
+git cherry-pick b1c5917
+
+git add fix2.txt
+
+git commit -m "Add text to txt2"
